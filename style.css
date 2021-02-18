@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Hanalei', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+div
+{
+    position: relative;
+    top: 2vh;
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 90vw;
+    height: 5vh;
+}
+
+table
+{
+    margin: 0 auto;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+caption
+{
+    background-color: yellow;
+    color: blue;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+.principales-1
+{
+    border: 3px solid black;
+    width: 50vw;
+    height: 30vh;
+}
+
+
+.principales-1 > tr,td
+{
+    border: 3px solid black !important;
+}
+
+.principales-2
+{
+    position: relative;
+    top: 4vh;
+    width: 73vw;
+    border-collapse: collapse;
+}
+
+.principales-2 > tbody
+{
+    border: 10px dotted red;
+}
+
+.caption-2
+{
+    caption-side: bottom;
+}
+
+.bold
+{
+    font-weight: bolder;
+}
+
+hr
+{
+    position: relative;
+    top: 6vh;
+    width: 50vw;
+}
+
+.renta
+{
+    color: blue;
+    background-color: yellow;
+    font-size: 3em;
+    border: 9px double red;
+    position: relative;
+    top: 7vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.normal
+{
+    border: 3px solid black;
+}
